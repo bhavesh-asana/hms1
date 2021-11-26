@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {%load static%}
+        <link rel="stylesheet" type="text/css" href="{%static 'style.css'%}">
+    </head>
+
+    <body>
+        
+        <div class="title">
+            <h1>HEALTH MONITORING SYSTEM WEB SERVICES</h1>
+        </div>
+        
+
+        <div class="doctor_block">
+            <h1>Doctor Login</h1>
+            <form>
+                <p>Username</p>
+                <input type="text" name="d_text" placeholder="Enter Username">
+                <p>Password</p>
+                <input type="password" name="d_password" placeholder="Enter Password"><br><br>
+                <input type="submit" name="d_submit" value="Login">
+            </form>
+
+        </div>
+        
+        <div class="client_block">
+            <h1>Client Login</h1>
+            <form>
+                <p>Username</p>
+                <input type="text" name="c_text" placeholder="Enter Username">
+                <p>Password</p>
+                <input type="password" name="c_password" placeholder="Enter Password"><br><br>
+                <input type="submit" name="c_submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
